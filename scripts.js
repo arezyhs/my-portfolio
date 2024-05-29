@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const projects = [
-        { title: 'Project 1', description: 'Description of project 1', url: 'https://github.com/arezyhs/project1' },
-        { title: 'Project 2', description: 'Description of project 2', url: 'https://github.com/arezyhs/project2' },
+        { title: 'DSA Project', description: 'Simple program about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
+        { title: 'C++ Fundamental', description: 'This project is a simple text-based RPG game written in C++. Players navigate through a fantasy world, encountering enemies and making choices to progress in the game.', url: 'https://github.com/arezyhs/cplusplus-final-project-rpg-game' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
         // Add more projects here
     ];
