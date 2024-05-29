@@ -3,9 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'DSA Project: Tree Topology Network', description: 'Simple program about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
         { title: 'C++ Fundamental: Text-Based RPG Game', description: 'This project is a simple text-based RPG game written in C++. Players navigate through a fantasy world, encountering enemies and making choices to progress in the game.', url: 'https://github.com/arezyhs/cplusplus-final-project-rpg-game' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
-        { title: 'Project 4', description: 'Description of project 4', url: 'https://github.com/arezyhs/project4' },
-        { title: 'Project 5', description: 'Description of project 5', url: 'https://github.com/arezyhs/project5' },
-        { title: 'Project 6', description: 'Description of project 6', url: 'https://github.com/arezyhs/project6' },
     ];
 
     const projectList = document.querySelector('.project-list');
