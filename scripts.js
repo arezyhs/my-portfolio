@@ -6,8 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
-
-        // proyek baru tambah ke sini
+        
     ];
 
     const projectList = document.querySelector('.project-list');
