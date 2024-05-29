@@ -65,6 +65,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1em;
+    text-align: left;
 }
 
 .project-list.list-view {
@@ -74,7 +75,7 @@ section {
 
 .project-item {
     background-color: #292929; /* Slightly lighter dark background */
-    border: 1px solid #00bcd4; /* Teal border */
+    border-bottom: 1px solid #00bcd4; /* Teal border */
     padding: 1em;
     transition: transform 0.2s;
     color: #e0e0e0; /* Light grey text */
@@ -86,12 +87,14 @@ section {
 .project-item h3 {
     margin: 0.5em 0 0.5em 0;
     font-size: 1.5em; /* Adjust font size for project titles */
+    color: #00bcd4; /* Teal for titles */
 }
 
 .project-item p {
     flex-grow: 1;
-    margin: 0.5em 0;
-    font-size: 1em; /* Adjust font size for project descriptions */
+    margin: 0.2em 0;
+    font-size: 1em; /* Standard font size for descriptions */
+    color: #e0e0e0; /* Light grey for descriptions */
 }
 
 .project-item a {
@@ -109,21 +112,6 @@ section {
     width: 100%;
     max-width: 600px;
     margin: 1em auto;
-    border: none;
-    border-bottom: 1px solid #00bcd4; /* Teal border */
-    padding: 0.5em 0;
-}
-
-.project-list.list-view .project-item h3 {
-    margin: 0;
-    font-size: 1.2em; /* Smaller font size for list view titles */
-    color: #00bcd4; /* Teal for titles */
-}
-
-.project-list.list-view .project-item p {
-    margin: 0.2em 0;
-    font-size: 1em; /* Standard font size for descriptions */
-    color: #e0e0e0; /* Light grey for descriptions */
 }
 
 footer {
