@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const projects = [
-        { title: 'DSA Project: Tree Topology Network', description: 'Simple program about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
+        { title: 'C++ Data Structur and Algorithm: Tree Topology Network', description: 'Simple program about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
         { title: 'C++ Fundamental: Text-Based RPG Game', description: 'This project is a simple text-based RPG game written in C++. Players navigate through a fantasy world, encountering enemies and making choices to progress in the game.', url: 'https://github.com/arezyhs/cplusplus-final-project-rpg-game' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
     ];
