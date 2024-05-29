@@ -1,12 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     const projects = [
-        { title: 'DSA Project', description: 'Simple program about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
-        { title: 'C++ Fundamental', description: 'This project is a simple text-based RPG game written in C++. Players navigate through a fantasy world, encountering enemies and making choices to progress in the game.', url: 'https://github.com/arezyhs/cplusplus-final-project-rpg-game' },
+        { title: 'DSA Project: Tree Topology Network', description: 'Simple program about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
+        { title: 'C++ Fundamental: Text-Based RPG Game', description: 'This project is a simple text-based RPG game written in C++. Players navigate through a fantasy world, encountering enemies and making choices to progress in the game.', url: 'https://github.com/arezyhs/cplusplus-final-project-rpg-game' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
-        { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
-        { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
-        { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
-        
+        { title: 'Project 4', description: 'Description of project 4', url: 'https://github.com/arezyhs/project4' },
+        { title: 'Project 5', description: 'Description of project 5', url: 'https://github.com/arezyhs/project5' },
+        { title: 'Project 6', description: 'Description of project 6', url: 'https://github.com/arezyhs/project6' },
     ];
 
     const projectList = document.querySelector('.project-list');
@@ -20,5 +19,22 @@ document.addEventListener('DOMContentLoaded', () => {
             <a href="${project.url}" target="_blank">View Project</a>
         `;
         projectList.appendChild(projectItem);
+    });
+
+    const gridViewButton = document.getElementById('grid-view');
+    const listViewButton = document.getElementById('list-view');
+
+    gridViewButton.addEventListener('click', () => {
+        projectList.classList.add('grid-view');
+        projectList.classList.remove('list-view');
+        gridViewButton.classList.add('active');
+        listViewButton.classList.remove('active');
+    });
+
+    listViewButton.addEventListener('click', () => {
+        projectList.classList.add('list-view');
+        projectList.classList.remove('grid-view');
+        listViewButton.classList.add('active');
+        gridViewButton.classList.remove('active');
     });
 });

@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>arezyhs Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
@@ -25,9 +27,18 @@
 
         <section id="projects">
             <h2>My Projects</h2>
-            <div class="project-list">
+            <div class="view-toggle">
+                <button id="grid-view" class="active">Grid View</button>
+                <button id="list-view">List View</button>
+            </div>
+            <div class="project-list grid-view">
                 <!-- Project items will be inserted here -->
             </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me at [your email].</p>
         </section>
     </main>
 

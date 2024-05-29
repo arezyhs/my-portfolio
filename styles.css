@@ -1,14 +1,18 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'EB Garamond', serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #1c1c1c; /* Dark background */
+    color: #e0e0e0; /* Light grey text */
+    font-size: 18px; /* Increase base font size */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #292929; /* Slightly lighter dark background */
+    color: #e0e0e0; /* Light grey */
     padding: 1em 0;
+    font-size: 1.2em; /* Slightly larger font for header */
 }
 
 nav ul {
@@ -23,8 +27,9 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #00bcd4; /* Teal */
     text-decoration: none;
+    font-size: 1.1em; /* Slightly larger font for nav links */
 }
 
 main {
@@ -36,26 +41,95 @@ section {
     margin-bottom: 2em;
 }
 
-.project-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.view-toggle {
+    margin-bottom: 1em;
+}
+
+.view-toggle button {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color: #00bcd4; /* Teal */
+    border: none;
+    color: #1c1c1c; /* Dark background */
+    font-size: 1.1em; /* Slightly larger font for buttons */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-toggle button.active {
+    background-color: #292929; /* Slightly lighter dark background */
+    color: #00bcd4; /* Teal */
+}
+
+.project-list.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1em;
+}
+
+.project-list.list-view {
+    display: block;
+    text-align: left;
 }
 
 .project-item {
-    background-color: #f4f4f4;
-    border: 1px solid #ccc;
-    margin: 1em;
+    background-color: #292929; /* Slightly lighter dark background */
+    border: 1px solid #00bcd4; /* Teal border */
     padding: 1em;
-    width: 200px;
+    transition: transform 0.2s;
+    color: #e0e0e0; /* Light grey text */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-item h3 {
+    margin: 0.5em 0 0.5em 0;
+    font-size: 1.5em; /* Adjust font size for project titles */
+}
+
+.project-item p {
+    flex-grow: 1;
+    margin: 0.5em 0;
+    font-size: 1em; /* Adjust font size for project descriptions */
+}
+
+.project-item a {
+    color: #00bcd4; /* Teal for links */
+    text-decoration: none;
+    font-size: 1.1em; /* Adjust font size for links */
+}
+
+.project-item:hover {
+    transform: scale(1.05);
+    border-color: #00acc1; /* Slightly lighter teal on hover */
+}
+
+.project-list.list-view .project-item {
+    width: 100%;
+    max-width: 600px;
+    margin: 1em auto;
+    border: none;
+    border-bottom: 1px solid #00bcd4; /* Teal border */
+    padding: 0.5em 0;
+}
+
+.project-list.list-view .project-item h3 {
+    margin: 0;
+    font-size: 1.2em; /* Smaller font size for list view titles */
+    color: #00bcd4; /* Teal for titles */
+}
+
+.project-list.list-view .project-item p {
+    margin: 0.2em 0;
+    font-size: 1em; /* Standard font size for descriptions */
+    color: #e0e0e0; /* Light grey for descriptions */
 }
 
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #292929; /* Slightly lighter dark background */
+    color: #e0e0e0; /* Light grey */
     text-align: center;
     padding: 1em 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    font-size: 1em; /* Standard font size for footer */
 }
