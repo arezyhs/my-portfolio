@@ -11,8 +11,8 @@ body {
 header {
     background-color: #292929; /* Slightly lighter dark background */
     color: #e0e0e0; /* Light grey */
-    padding: 1em 0;
-    font-size: 1.2em; /* Slightly larger font for header */
+    padding: 0.5em 0; /* Reduced padding for a smaller header */
+    font-size: 1em; /* Slightly smaller font for header */
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul li {
 nav ul li a {
     color: #00bcd4; /* Teal */
     text-decoration: none;
-    font-size: 1.1em; /* Slightly larger font for nav links */
+    font-size: 1em; /* Slightly smaller font for nav links */
 }
 
 main {
@@ -43,16 +43,17 @@ section {
 
 .view-toggle {
     margin-bottom: 1em;
+    text-align: right; /* Align toggle buttons to the right */
 }
 
 .view-toggle button {
     margin: 0 0.5em;
-    padding: 0.5em 1em;
+    padding: 0.3em 0.7em; /* Smaller padding for smaller buttons */
     cursor: pointer;
     background-color: #00bcd4; /* Teal */
     border: none;
     color: #1c1c1c; /* Dark background */
-    font-size: 1.1em; /* Slightly larger font for buttons */
+    font-size: 0.9em; /* Smaller font for buttons */
     transition: background-color 0.3s, color 0.3s;
 }
 
