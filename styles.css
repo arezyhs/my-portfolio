@@ -19,7 +19,7 @@ nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 nav ul li {
@@ -59,16 +59,16 @@ section {
     margin: 0 0.5em;
     padding: 0.3em 0.7em; /* padding utk buttons */
     cursor: pointer;
-    background-color: #00bcd4; /* Teal */
+    background-color: #292929; /* warna bg gelap */
     border: none;
-    color: #1c1c1c; /* Dark background */
+    color: #00bcd4; /* warna teks terang */
     font-size: 0.9em; /* Smaller font for buttons */
     transition: background-color 0.3s, color 0.3s;
 }
 
 .view-toggle button.active {
-    background-color: #292929; /* Slightly lighter dark background */
-    color: #00bcd4; /* Teal */
+    background-color: #00bcd4; /* button aktif warna teal nyala */
+    color: #292929; /* warna teks gelap */
 }
 
 .project-list.grid-view {
