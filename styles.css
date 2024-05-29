@@ -1,18 +1,18 @@
 body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', serif; /* font EB Garamond */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1c1c1c; /* Dark background */
-    color: #e0e0e0; /* Light grey text */
-    font-size: 18px; /* Increase base font size */
+    background-color: #1c1c1c; /* warna bg */
+    color: #e0e0e0; /* abu abu terang */
+    font-size: 18px; /* ukuran base font text */
 }
 
 header {
-    background-color: #292929; /* Slightly lighter dark background */
+    background-color: #292929; /* warna background header */
     color: #e0e0e0; /* Light grey */
-    padding: 0.5em 0; /* Reduced padding for a smaller header */
-    font-size: 1em; /* Slightly smaller font for header */
+    padding: 0.5em 0; /* padding untuk smaller header */
+    font-size: 1em; /* ukuran font untuk header */
 }
 
 nav ul {
@@ -29,7 +29,7 @@ nav ul li {
 nav ul li a {
     color: #00bcd4; /* Teal */
     text-decoration: none;
-    font-size: 1em; /* Slightly smaller font for nav links */
+    font-size: 1em; /* ukuran font untuk nav links */
 }
 
 main {
@@ -42,22 +42,22 @@ section {
 }
 
 #home h1 {
-    font-size: 2.5em; /* Make the "Welcome to My Portfolio" text bigger */
+    font-size: 2.5em; /* mengatur ukuran teks "Welcome to My Portfolio" */
     margin-bottom: 0.5em;
 }
 
 #home p {
-    margin: 0.5em 0; /* Reduce margin for less gap */
+    margin: 0.5em 0; /* mengatur gap margin */
 }
 
 .view-toggle {
     margin-bottom: 1em;
-    text-align: right; /* Align toggle buttons to the right */
+    text-align: right; /* mengatur lokasi toggle buttons */
 }
 
 .view-toggle button {
     margin: 0 0.5em;
-    padding: 0.3em 0.7em; /* Smaller padding for smaller buttons */
+    padding: 0.3em 0.7em; /* padding utk buttons */
     cursor: pointer;
     background-color: #00bcd4; /* Teal */
     border: none;
@@ -96,21 +96,21 @@ section {
 
 .project-item h3 {
     margin: 0.5em 0 0.5em 0;
-    font-size: 1.5em; /* Adjust font size for project titles */
+    font-size: 1.5em; /* ukuran font untuk judul proyek */
     color: #00bcd4; /* Teal for titles */
 }
 
 .project-item p {
     flex-grow: 1;
     margin: 0.2em 0;
-    font-size: 1em; /* Standard font size for descriptions */
-    color: #e0e0e0; /* Light grey for descriptions */
+    font-size: 1em; /* ukuran font utk deskripsi proyek */
+    color: #e0e0e0; /* warna untk descriptions */
 }
 
 .project-item a {
     color: #00bcd4; /* Teal for links */
     text-decoration: none;
-    font-size: 1.1em; /* Adjust font size for links */
+    font-size: 1.1em; /* mengatur ukuran links ke proyek */
 }
 
 .project-item:hover {
@@ -129,5 +129,5 @@ footer {
     color: #e0e0e0; /* Light grey */
     text-align: center;
     padding: 1em 0;
-    font-size: 1em; /* Standard font size for footer */
+    font-size: 1em; /* ukuran footer */
 }
