@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: 'C++ Data Structure and Algorithm: Tree Topology Network', description: 'This project is a about "Network Traffic Monitoring and Simulation of Tree Topology Network" using C++ to learn about Data Structure and Algorithm', url: 'https://github.com/arezyhs/cplusplus-network-traffic-monitoring-and-tree-topology-network' },
         { title: 'C++ Fundamental: Text-Based RPG Game', description: 'This project is a simple text-based RPG game written in C++. Players navigate through a fantasy world, encountering enemies and making choices to progress in the game.', url: 'https://github.com/arezyhs/cplusplus-final-project-rpg-game' },
         { title: 'Project 3', description: 'Description of project 3', url: 'https://github.com/arezyhs/project3' },
+        { title: 'Topic 1', description: '', url: 'https://github.com/arezyhs/topic1' },
     ];
 
     const projectList = document.querySelector('.project-list');
